@@ -78,3 +78,11 @@ What you should learn from this project is the following:
 ### [13-insert_number.c](./13-insert_number.c)
 
 - Write a function in C that inserts a number into a sorted singly linked list.
+
+### [100-print_tebahpla.py](./100-print_tebahpla.py)
+
+- Write a program that prints the ASCII alphabet, in reverse orde
+
+### [101-remove_char_at.py](./101-remove_char_at.py)
+
+- Write a function that creates a copy of the string, removing the character at the position `n`
