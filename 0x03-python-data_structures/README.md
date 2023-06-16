@@ -39,47 +39,42 @@ What you should learn from this project is the following:
 
 - Write a function that replaces an element in a list at a specific position without modifying the original list (like in C).
 
-
 ### [5-no_c.py](./5-no_c.py)
 
 - Write a function that removes all characters c and C from a string.
-
 
 ### [6-print_matrix_integer.py](./6-print_matrix_integer.py)
 
 - Write a function that prints a matrix of integers.
 
-
 ### [7-add_tuple.py](./7-add_tuple.py)
 
 - Write a function that adds 2 tuples.
-
 
 ### [8-multiple_returns.py](./8-multiple_returns.py)
 
 - Write a function that returns a tuple with the length of a string and its first character.
 
-
 ### [9-max_integer.py](./9-max_integer.py)
 
 - Write a function that finds the biggest integer of a list.
-
 
 ### [10-divisible_by_2.py](./10-divisible_by_2.py)
 
 - Write a function that finds all multiples of 2 in a list.
 
-
 ### [11-delete_at.py](./11-delete_at.py)
 
 - Write a function that deletes the item at a specific position in a list.
-
 
 ### [12-switch.py](./12-switch.py)
 
 - Complete the source code in order to switch value of a and b
 
-
 ### [13-is_palindrome.c](./13-is_palindrome.c)
 
 - Write a function in C that checks if a singly linked list is a palindrome.
+
+### [100-print_python_list_info.c](./100-print_python_list_info.c)
+
+- Create a C function that prints some basic info about Python lists.
