@@ -1,18 +1,12 @@
 #!/usr/bin/python3
-""" Module that contains a function that reads from a file """
+"""
+    0-read_file: read_file()
+"""
 
 
 def read_file(filename=""):
-    """ Function that reads from a file
-
-    Args:
-        filename: filename
-
-    Raises
-        Exception: when the file can be opened
-
     """
-
-    with open(filename, 'r', encoding="utf-8") as f:
-        read_data = f.read()
-        print(read_data, end='')
+        read_file reads teaxt file and prints to stdout
+    """
+    with open(filename, "r", encoding='utf-8') as a_file:
+        print("{}".format(a_file.read()), end="")

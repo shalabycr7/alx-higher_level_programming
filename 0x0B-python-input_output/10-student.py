@@ -14,7 +14,6 @@ class Student:
         Methods:
             __init__ - initializes the Student instance.
             to_json - retrieves dictionary repr of Student instance.
-            reload_from_json - replaces a;; attributes of Student instance.
     """
     def __init__(self, first_name, last_name, age):
         """
@@ -36,12 +35,3 @@ class Student:
             return res
         else:
             return self.__dict__
-
-    def reload_from_json(self, json):
-        """
-            replaces all attributes of the Student Instance.
-            Args:
-                json (dictionary): reload data.
-        """
-        for key, value in json.items():
-            self.__setattr__(key, value)
